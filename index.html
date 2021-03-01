@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+	<div class="jumbotron text-center">
+	  <h1>Tennis blog</h1>
+	</div>
+
+
+	<div class="container">
+		<ul class="list-inline">
+	  		<li> <a href="#">Home</a></li>
+	  		<li> <a href="#">Big 3</a></li>
+	  		<li> <a href="#">ATP Rank</a></li>
+	  	</ul>
+	</div>
+
+	<div class="container">
+
+		<div class="row">
+			<div class="col-sm-4">
+				<h1> Novak Djokovic </h1>
+				<table class="table">
+					<thead>
+						<tr>
+							<th> Grand Slam </th>
+							<th> # of GS </th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td> Aus Open </td>
+							<td> 9  </td>
+						</tr>
+						<tr>
+							<td> French Open </td>
+							<td> 1 </td>
+						</tr>
+						<tr>
+							<td> Wimbledon </td>
+							<td> 5 </td>
+						</tr>
+						<tr>
+							<td> US Open </td>
+							<td> 3 </td>
+						</tr>
+					</tbody>
+				</table>
+
+
+				<h3> Efectividad en finales de GS </h3>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="65.4" aria-valuemin="0" aria-valuemax="100" style="width:65.4%">
+						65.4%
+					</div>
+				</div>
+
+
+				<h3> Titles in court </h3>
+				<ul class="list-group">
+					<li class="list-group-item"> Total titles <span class="badge"> 82 </span></li>
+					<li class="list-group-item"> Hard <span class="badge"> 61 </span></li>
+					<li class="list-group-item"> Clay <span class="badge"> 15 </span></li>
+					<li class="list-group-item"> Grass <span class="badge"> 6 </span></li>
+				</ul>
+
+
+			</div>
+			<div class="col-sm-4">
+				<h2> Gallery </h2>
+				<img class= "img-responsive" src="https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ece884dbdf23b00084e577b%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D460%26cropX2%3D1949%26cropY1%3D185%26cropY2%3D1672"/>
+				<ul class="pagination">
+					<li class="active"> <a href="#">1</a></li>
+					<li> <a href="#">2</a></li>
+					<li> <a href="#">3</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-4">
+				<h2> Other players </h2>
+				<button type="button" class="btn btn-primary"> Roger Federer </button>
+				<button type="button" class="btn btn-primary"> Rafael Nadal </button>
+				<button type="button" class="btn btn-primary"> Agassi </button>
+
+				<h2> H2H stats </h2>
+				<div class="dropdown">
+					 <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Players<span class="caret"></span></button>
+    					<ul class="dropdown-menu">
+      						<li><a href="#">Federer</a></li>
+      						<li><a href="#">Nadal</a></li>
+     						<li><a href="#">Thiem</a></li>
+   						 </ul>
+				</div>
+
+				<img class= "img-responsive" src="https://s.err.ee/photo/crop/2020/04/22/772421h308at4.jpg"/>
+				<ul class="pager">
+  					<li><a href="#">Previous</a></li>
+  					<li><a href="#">Next</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>
